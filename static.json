@@ -1,0 +1,11 @@
+{
+    "root": ".", 
+    "encoding": "utf-8",
+    "clean_urls": true,
+    "routes": {
+      "/*.html": "index.html"
+    },
+    "https_only": true,
+    "basic_auth": true, 
+    "basic_auth_htpasswd_path": "/app/config/.htpasswd" 
+  }
