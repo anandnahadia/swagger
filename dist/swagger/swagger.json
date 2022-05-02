@@ -18,7 +18,7 @@
         },
         "version": "1.0"
     },
-    "host": "stark-wildwood-40485.herokuapp.com/",
+    "host": "stark-wildwood-40485.herokuapp.com",
     "basePath": "/",
     "paths": {
         "/covidData": {
