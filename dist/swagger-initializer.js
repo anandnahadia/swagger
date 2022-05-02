@@ -10,14 +10,14 @@ window.onload = function () {
      * and put productBdefinition.json file there.
      */
     urls: [
-      { url: "https://petstore.swagger.io/v2/swagger.json", name: "product A" },
-      { url: "./swagger.json", name: "product B" },
+      // { url: "https://petstore.swagger.io/v2/swagger.json", name: "product A" },
+      { url: "./swagger/swagger.json", name: "Covid Data" },
     ],
 
     /**
      * Select assigned name after landing this page
      */
-    "urls.primaryName": "product B",
+    "urls.primaryName": "Covid Data",
 
     dom_id: "#swagger-ui",
     deepLinking: true,
